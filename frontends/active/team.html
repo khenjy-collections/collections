@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add/Remove Active Class On Click - Team</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">about</a></li>
+    <li><a href="services.html">services</a></li>
+    <li><a href="portfolio.html">portfolio</a></li>
+    <li><a href="team.html">team</a></li>
+    <li><a href="contact.html">contact</a></li>
+  </ul>
+
+  <script type="text/javascript">
+    const currentLocation = location.href;
+    const menuItem = document.querySelectorAll('a');
+    const menuLength = menuItem.length
+    for (i = 0; i < menuLength; i++) {
+      if (menuItem[i].href === currentLocation) {
+        menuItem[i].className = "active"
+      }
+    }
+  </script>
+</body>
+
+</html>

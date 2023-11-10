@@ -1,12 +1,12 @@
 <div class="card mb-4">
 <div class="card-header">    
-    <i class="fas fa-table mr-1"></i>List Data Barang
+    <i class="fas fa-table mr-1"></i>List Data User
 </div>
 <div class="card-body">
     <div class="table-responsive">
         <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-        <a href="" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
-          <i class='fas fa-plus'></i> Data Barang</a><p></p>
+        <a href="admin.php?page=inputuser" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
+          <i class='fas fa-plus'></i> Data User</a><p></p>
         <thead>
             <tr>
                 <th>No</th>  

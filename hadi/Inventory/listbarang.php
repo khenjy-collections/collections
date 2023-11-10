@@ -47,7 +47,7 @@
 
                     <a href="admin.php?page=edit_b&idb=<?php echo $read['kode_barang'];?>" class="d-none d-sm-inline-block btn btn-sm btn-warning shadow-sm"><i class="fas fa-edit"></i></a>
 
-                    <a href="admin.php?page=del_b&idb=<?php echo $read['kode_barang'];?>" onclick="return comfirm('Yakin Hapus Data Ini..?')" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm"><i class="fas fa-trash"></i></a>
+                    <a href="admin.php?page=del_b&idb=<?php echo $read['kode_barang'];?>" onclick="return confirm('Yakin Hapus Data Ini..?')" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm"><i class="fas fa-trash"></i></a>
                 </td>
             </tr>
             <?php $no++; }?>

@@ -1,0 +1,21 @@
+halaman umum
+	login
+	sign up
+	beranda
+
+kasir
+	menu sidebar (menu, pesanan)
+	daftar menu
+	pesanan masuk
+
+manajer
+	menu sidebar (menu, penjualan)
+	daftar menu
+		tambah
+		edit
+		hapus
+	laporan penjualan
+		cetak
+admin
+	menu sidebar (pengaturan)
+	pengaturan (website)

@@ -1,0 +1,22 @@
+projek setelah lulus ujian
+
+membuat website perpisahan kelas
+
+projek pertama dikerjakan secara independen
+setelah projek 70% selesai, maka akan dibagikan ke alex mengenai projek pembuatan halaman perpisahan kelas ini
+
+ketentuan website :
+	frondend :
+		responsive
+		memiliki ui yang bagus
+		didesain secara kreatif
+		mudah dioperasikan
+		menampilkan gambar
+		
+	backend :
+		memiliki input data yang lengkap
+		mudah dioperasikan
+
+
+fitur tambahan :
+memiliki musik latar belakang

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Box With Dropdown - Easy Tutorials</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="search-bar">
+      <div id="select">
+        <p id="selectText">All categories</p>
+        <i class="fas fa-caret-down"></i>
+        <ul id="list">
+          <li class="options">All Categories</li>
+          <li class="options">Electronics</li>
+          <li class="options">Furniture</li>
+          <li class="options">Sports</li>
+          <li class="options">Fashion</li>
+        </ul>
+      </div>
+      <input type="text" id="inputfield" placeholder="Search In All Categories">
+    </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/f0a46e98b0.js" crossorigin="anonymous"></script>
+
+  <script>
+    let select = document.getElementById("select");
+    let list = document.getElementById("list");
+
+    let selectText = document.getElementById("selectText");
+    let inputfield = document.getElementById("inputfield")
+
+    let options = document.getElementsByClassName("options");
+
+    select.onclick = function () {
+      list.classList.toggle("open");
+    }
+
+    for(option of options){
+      option.onclick = function() {
+        selectText.innerHTML = this.innerHTML;
+        inputfield.placeholder = "Search In " + selectText.innerHTML;
+      }
+    }
+  </script>
+</body>
+
+</html>

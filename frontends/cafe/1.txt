@@ -1,0 +1,24 @@
+ga pakai member untuk pelanggan
+tidak ada tampilan buat pelanggan
+ui dan ux disesuaikan untuk tablet
+
+daftar tabel
+	kategori_produk
+	pelanggan
+	pengguna
+	produk
+	satuan_produk
+	stok_keluar
+	stok_masuk
+	supplier
+	toko
+	transaksi
+
+daftar tabel versi 2
+	barang
+	cookie
+	login
+	penjualan
+	token
+	toko
+	user

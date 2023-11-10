@@ -3,7 +3,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$database = "web_inventory";
+$database = "college_web_inventory";
 
 $db = mysqli_connect($host,$user,$pass,$database);
 

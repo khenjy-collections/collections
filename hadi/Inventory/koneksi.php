@@ -3,14 +3,12 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$database = "college_web_inventory";
+$database = "college_3_pweb_inventory";
 
-$db = mysqli_connect($host,$user,$pass,$database);
+$db = mysqli_connect($host, $user, $pass, $database);
 
-if (!$db){
+if (!$db) {
     echo "Koneksi ke Database Gagal/Database tidak ditemukan";
-}else{
+} else {
     echo "Koneksi Berhasil";
 }
-
-?>

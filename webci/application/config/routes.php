@@ -19,7 +19,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 | Please see the user guide for complete details:
 |
-|	https://codeigniter.com/userguide3/general/routing.html
+|	https://codeigniter.com/user_guide/general/routing.html
 |
 | -------------------------------------------------------------------------
 | RESERVED ROUTES
@@ -52,3 +52,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+
+$route['berita'] = 'berita';
+$route['berita/(:num)/(:any)'] = 'berita/view/$1';
+
+$route['artikel'] = 'artikel';
+$route['artikel/(:num)/(:any)'] = 'artikel/view/$1';
+
+$route['agenda'] = 'agenda';
+$route['agenda/(:num)/(:any)'] = 'agenda/view/$1';
+
+$route['download'] = 'download';
+$route['download/(:num)/(:any)'] = 'download/view/$1';
+
+$route['tampilan'] = 'tampilan';
+$route['term'] = 'tampilan/term';
+$route['privasi'] = 'tampilan/privasi';
+
+$route['default_controller'] = 'tampilan';

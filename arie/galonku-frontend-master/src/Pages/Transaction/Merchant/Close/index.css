@@ -1,0 +1,24 @@
+.open-close-order {
+    width: 180px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.order-status {
+    font-style: italic;
+}
+
+.close-alert {
+    color: red;
+}
+
+.content-container {
+    margin-top: 17px;
+    margin-bottom: 18px;
+
+}
+
+.message{
+    margin-top: 30px;
+    font-weight: bold;
+}
